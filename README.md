@@ -44,7 +44,7 @@ Replace the argument values as per your requirements. For instance, use `--devic
 After training, you can validate the model's accuracy using the `translate.py` script on testing set.
 * `--known_class`: As in the training step, this indicates whether the class is known or unknown.
 * `--checkpoint_dir`: The directory where your trained model checkpoints are stored.
-* `--checkpoint`: The specific checkpoint file to use for validation. Replace `{training_step}` with the appropriate training step number.
+* `--checkpoint`: The specific checkpoint file to use for validation. Replace 'unknown_model.pt' with your trained model. You can download our trained model at <https://drive.google.com/drive/folders/12gNpyfM6zZJlaoHsL-2-Jwmt3qoU1_om?usp=sharing>.
 * `--device`: The device to run the validation on, either GPU (cuda:0) or CPU (cpu).
 
 ``` bash
